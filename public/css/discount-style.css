@@ -1,0 +1,47 @@
+
+  /* Định dạng phần bảng */
+  #product {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* Định dạng tiêu đề cột */
+
+
+  /* Định dạng dòng dữ liệu */
+  #product tbody td {
+    border: 1px solid #ddd;
+ 
+  }
+
+  /* Định dạng dòng lẻ */
+  #product tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  /* Định dạng dòng chẵn */
+  #product tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+
+
+  
+  /* Định dạng phần bảng bên phải */
+
+  .card-body2{
+    margin-bottom: 0; /* Xóa margin-bottom hiện tại */
+    height: calc(100vh - 300px); /* Đặt chiều cao của phần bảng bên phải */
+
+    
+  }
+  .card.card-primary {
+    margin-top: 34px;
+  }
+button{
+    margin-left: auto;
+}
+.whitespace {
+    height: 100vh; /* Đặt chiều cao */
+    margin-top: 40px; /* Đặt margin-top */
+
+}

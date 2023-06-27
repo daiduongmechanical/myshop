@@ -1,0 +1,45 @@
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.Select{
+    display: flex;
+}
+.header{
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+}
+.wrapper{
+    background-color:rgb(153, 231, 205);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: auto 20px;
+    border-radius: 5%;
+}
+.custom-select{
+width: 140px;
+height: 50px;
+font-size: 25px;
+
+}
+
+.icon{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    transform: translateY(10px);
+    margin-bottom: 20px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px;
+}
+.revenue{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.sort-byDate{
+    display:contents;
+}
